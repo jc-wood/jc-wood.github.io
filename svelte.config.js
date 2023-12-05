@@ -16,13 +16,16 @@ const config = {
 			// these options are set automatically — see below
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
+			fallback: '404.html',
 			precompress: false,
 			strict: true
 		}),
         paths: {
-            base: process.env.NODE_ENV === 'production' ? '/jc-wood.github.io' : '',
-        }
+            base: process.argv.includes('dev') ? '' : '/jc-wood.github.io'
+        },
+/* 		prerender: {
+			entries: []
+		} */
 	}
 };
 
