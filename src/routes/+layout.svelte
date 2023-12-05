@@ -15,11 +15,17 @@
             margin-bottom: 0.4em;
         }
 
-        .alert a {
-            color: var(--bs-alert-color);
-            
-            &:hover {
-                color: color-mix(in lab, var(--bs-alert-color), white);
+        .alert {
+            & .blockquote-footer {
+                color: color-mix(in lab, var(--bs-alert-color) 80%, black);
+            }
+
+            & a {
+                color: var(--bs-alert-color);
+                
+                &:hover {
+                    color: color-mix(in lab, var(--bs-alert-color), white);
+                }
             }
         }
 
