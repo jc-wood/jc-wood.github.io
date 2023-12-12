@@ -21,23 +21,29 @@
 <div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Destiny 2</h3>
-            <p class="card-text">These days I spend an inordinate amount of time playing Destiny 2 with my friends and clanmates.</p>
-            <p class="card-text">Shoot me an email, message me on Discord, or DM me on Mastodon and we'll game together.</p>
-            <a class="card-link" href="https://www.bungie.net/7/en/Destiny">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Destiny 2</h3>
+                <p class="card-text">These days I spend an inordinate amount of time playing Destiny 2 with my friends and clanmates.</p>
+                <p class="card-text">Shoot me an email, message me on Discord, or DM me on Mastodon and we'll game together.</p>
+                <a class="card-link" href="https://www.bungie.net/7/en/Destiny">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Baldur's Gate 3</h3>
-            <p class="card-text">This game is one of the best I've ever played. Phenomenal story telling. Great gameplay. The developers thought of everything.</p>
-            <a class="card-link" href="https://baldursgate3.game">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Baldur's Gate 3</h3>
+                <p class="card-text">This game is one of the best I've ever played. Phenomenal story telling. Great gameplay. The developers thought of everything.</p>
+                <a class="card-link" href="https://baldursgate3.game">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Discord</h3>
-            <p class="card-text">You can also find me on <a href="https://discord.com/users/ifeelanxious" title="Link to Discord user profile.">Discord</a>.</p>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Discord</h3>
+                <p class="card-text">You can also find me on <a href="https://discord.com/users/ifeelanxious" title="Link to Discord user profile.">Discord</a>.</p>
+            </div>
         </Card>
     </div>
 </div>

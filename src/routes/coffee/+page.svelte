@@ -20,17 +20,23 @@
 </aside>
 <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
-        <Card cap={`<img src="/img/grassroots-logo.webp" alt="Grassroots Coffee Co." />`}>
-            <h3 class="h5 card-title">Grassroots Coffee</h3>
-            <p class="card-text">This local roaster has never let me down. The Sumatra Gayo is a single-origin coffee that is <em>to die for</em>.</p>
-            <a class="card-link" href="https://grassrootscoffee.com/collections/coffee" title="Link to Grassroots Coffee's online store.">Go</a>
+        <Card>
+            <img slot="cap" src="/img/grassroots-logo.webp" alt="Grassroots Coffee Co." />
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Grassroots Coffee</h3>
+                <p class="card-text">This local roaster has never let me down. The Sumatra Gayo is a single-origin coffee that is <em>to die for</em>.</p>
+                <a class="card-link" href="https://grassrootscoffee.com/collections/coffee" title="Link to Grassroots Coffee's online store.">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<img src="/img/moccamaster-logo.webp" alt="Technivorm Moccamaster" />`}>
-            <h3 class="h5 card-title">Technivorm Moccamaster</h3>
-            <p class="card-text">I don't own one of these yet but it would be an absolute dream to do so. Universally regarded as the best drip coffee maker that you can buy.</p>
-            <a class="card-link" href="https://us.moccamaster.com/" title="Link to Technivorm's online store.">Go</a>
+        <Card>
+            <img slot="cap" src="/img/moccamaster-logo.webp" alt="Technivorm Moccamaster" />
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Technivorm Moccamaster</h3>
+                <p class="card-text">I don't own one of these yet but it would be an absolute dream to do so. Universally regarded as the best drip coffee maker that you can buy.</p>
+                <a class="card-link" href="https://us.moccamaster.com/" title="Link to Technivorm's online store.">Go</a>
+            </div>
         </Card>
     </div>
 </div>

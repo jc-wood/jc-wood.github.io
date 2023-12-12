@@ -25,36 +25,44 @@
 <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">The Myth of Sisyphus</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Albert Camus</h4>
-            <p class="card-text">An essay in which the French-Algerian playwrite and author explores the notion of the Absurd, <em>with a capital "A".</em></p>
-            <p class="card-text">According to Camus, we are meaning-seeking beings that exist in a universe devoid of any objective meaning to our existence. If this premise is true, why should one go on living?</p>
-            <a class="card-link" href="https://archive.org/details/AlbertCamusTheMythOfSisyphus" title="Link to Archive.org">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">The Myth of Sisyphus</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Albert Camus</h4>
+                <p class="card-text">An essay in which the French-Algerian playwrite and author explores the notion of the Absurd, <em>with a capital "A".</em></p>
+                <p class="card-text">According to Camus, we are meaning-seeking beings that exist in a universe devoid of any objective meaning to our existence. If this premise is true, why should one go on living?</p>
+                <a class="card-link" href="https://archive.org/details/AlbertCamusTheMythOfSisyphus" title="Link to Archive.org">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">The Trial and Death of Socrates</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Plato</h4>
-            <p class="card-text">A collection of dialogues which detail the persecution of Socrates, once held in high esteem for his wisdom, by the citizens of Athens.</p>
-            <p class="card-text">There are a lot of parallels to today's political climate with regards to journalism and activism.</p>
-            <a class="card-link" href="https://archive.org/details/in.ernet.dli.2015.503536" title="Link to Archive.org">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">The Trial and Death of Socrates</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Plato</h4>
+                <p class="card-text">A collection of dialogues which detail the persecution of Socrates, once held in high esteem for his wisdom, by the citizens of Athens.</p>
+                <p class="card-text">There are a lot of parallels to today's political climate with regards to journalism and activism.</p>
+                <a class="card-link" href="https://archive.org/details/in.ernet.dli.2015.503536" title="Link to Archive.org">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">The Nicomachean Ethics</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Aristotle</h4>
-            <p class="card-text">A discussion of what constitutes ones character. How does one become courageous without being foolhardy? This is the origin of the term, "the golden mean".</p>
-            <a class="card-link" href="https://archive.org/details/in.ernet.dli.2015.183333" title="Link to Archive.org">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">The Nicomachean Ethics</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Aristotle</h4>
+                <p class="card-text">A discussion of what constitutes ones character. How does one become courageous without being foolhardy? This is the origin of the term, "the golden mean".</p>
+                <a class="card-link" href="https://archive.org/details/in.ernet.dli.2015.183333" title="Link to Archive.org">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Philosophize This</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Stephen West</h4>
-            <p class="card-text">A beginner-friendly podcast about all things philosophy.</p>
-            <a class="card-link" href="https://pca.st/philosophize" title="Link to Pocket Casts' hub">Go</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Philosophize This</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Stephen West</h4>
+                <p class="card-text">A beginner-friendly podcast about all things philosophy.</p>
+                <a class="card-link" href="https://pca.st/philosophize" title="Link to Pocket Casts' hub">Go</a>
+            </div>
         </Card>
     </div>
 </div>

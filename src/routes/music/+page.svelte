@@ -16,53 +16,69 @@
 <div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">HAMMS IN A GLASS</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Winona Fighter</h4>
-            <a class="card-link" href="https://www.youtube.com/watch?v=9w4TMU7avTY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/3249EJWdvR7xuLbXoxvLcJ">Spotify</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">HAMMS IN A GLASS</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Winona Fighter</h4>
+                <a class="card-link" href="https://www.youtube.com/watch?v=9w4TMU7avTY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/3249EJWdvR7xuLbXoxvLcJ">Spotify</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">The Motherload</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Mastodon</h4>
-            <a class="card-link" href="https://www.youtube.com/watch?v=wz56aruweJY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/6EF0xhfKtQNqUPz2mnE5BD">Spotify</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">The Motherload</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Mastodon</h4>
+                <a class="card-link" href="https://www.youtube.com/watch?v=wz56aruweJY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/6EF0xhfKtQNqUPz2mnE5BD">Spotify</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">In Due Time</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Killswitch Engage</h4>
-            <a class="card-link" href="https://youtu.be/HANCzu70us4">Youtube</a><a class="card-link" href="https://open.spotify.com/track/1HlOGL1p6wlpOZatJ2NwFk">Spotify</a>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">In Due Time</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Killswitch Engage</h4>
+                <a class="card-link" href="https://youtu.be/HANCzu70us4">Youtube</a><a class="card-link" href="https://open.spotify.com/track/1HlOGL1p6wlpOZatJ2NwFk">Spotify</a>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/OoQEUVEdwjg?si=sVql1KwVi9d7CWsj" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
-            <h3 class="h5 card-title">Catch Fire</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Periphery</h4>
+        <Card>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Catch Fire</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Periphery</h4>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/qc98u-eGzlc?si=8LnkxCcUTa8CBWKR" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
-            <h3 class="h5 card-title">Bleed</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Meshuggah</h4>
+        <Card>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Bleed</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Meshuggah</h4>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/SecJsEelf3c?si=AcFFw8OhO5S-Og_B" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
-            <h3 class="h5 card-title">Blood on the Sand</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Thrice</h4>
+        <Card>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Blood on the Sand</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Thrice</h4>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/Z5NoQg8LdDk?si=9rzSZGAjW10oPJl5" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
-            <h3 class="h5 card-title">Playing God</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Polyphia</h4>
+        <Card>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Playing God</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Polyphia</h4>
+            </div>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/mYgXS2Dft-g?si=CwDZMIWOs0dd43F7" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
-            <h3 class="h5 card-title">The Lines</h3>
-            <h4 class="h6 card-subtitle mb-2 text-body-secondary">Beartooth</h4>
+        <Card>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">The Lines</h3>
+                <h4 class="h6 card-subtitle mb-2 text-body-secondary">Beartooth</h4>
+            </div>
         </Card>
     </div>
 </div>
