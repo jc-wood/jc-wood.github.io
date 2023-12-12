@@ -13,7 +13,7 @@
 <p>I went to my first concert when I was about 12 years old. My cousins took me to Music Midtown in Atlanta, Georgia. I remember when Silverchair took the stage and played an amazing set. The crowd became an timultuous sea of people; jumping and bobbing and tumbling to the song blaring over the speakers; I think it was "Slave", from their album "Freak Show" which had recently debuted.</p>
 <p>Here's a few items that I adore of you want to check them out.</p>
 
-<div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
             <div slot="body" class="card-body">

@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <style lang="scss">
+    <style lang="scss" global>
         @charset "utf-8";
 
         @use "/node_modules/bootstrap/scss/bootstrap" with (

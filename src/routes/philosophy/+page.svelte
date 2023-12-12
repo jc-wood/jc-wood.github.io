@@ -22,7 +22,7 @@
 </div>
 <p>Are you wiser than Socrates? When Socrates was <a href="https://www.thoughtco.com/what-was-the-charge-against-socrates-121060" title="A link to a ThoughtCo article about the trial">on trial</a>, he recounted the tale of his visit with the Oracle of Delphi. The oracle informed Socrates that he was the wisest person on earth (sic). In contemplating why the oracle would say such a thing, he determined that it was because unlike other people, he knew that he did not know <em>anything</em>. <a href="https://reasonandmeaning.com/2019/11/03/socrates-i-know-that-i-know-nothing/" title="A link to Reason and Meaning">Here's a great breakdown of Socrates' argument.</a></p>
 
-<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
             <div slot="body" class="card-body">

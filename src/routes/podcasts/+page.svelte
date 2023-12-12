@@ -12,7 +12,7 @@
 <p>I'm old enough to remember when podcasts first came into the scene. iPods were the tech accessory that everyone wanted. If you had one you were instantly cool. My buddy, Christian (though we always called him, “Wookie”), had one with 40 Gbs of storage and just about every song on it that you could imagine.</p>
 <p>At the time, though, I wasn't too big on listening to podcasts but I was interested in making them. A few years back I figured out that they help me to pass the time at work and are great to listen to on long trips.</p>
 <p>I'd now consider myself to be a pretty big fan of the medium.</p>
-<div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
             <div slot="body" class="card-body">

@@ -12,7 +12,7 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="/">Josh Wood</a>
+      <a class="navbar-brand" href="/" on:click={collapseMenu}>Josh Wood</a>
       <button on:click={toggleMenu} class="navbar-toggler" type="button" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
