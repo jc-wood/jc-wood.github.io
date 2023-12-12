@@ -2,9 +2,10 @@
     <style lang="scss">
         @charset "utf-8";
 
-        $color-mode-type: media-query;
-
-        @import "/node_modules/bootstrap/scss/bootstrap.scss";
+        @use "/node_modules/bootstrap/scss/bootstrap" with (
+            $color-mode-type: media-query,
+        );
+       //@import "/css/mvp.css";
 
         body {
             padding-bottom: 3rem;
@@ -15,11 +16,17 @@
             margin-bottom: 0.4em;
         }
 
-        .alert a {
-            color: var(--bs-alert-color);
-            
-            &:hover {
-                color: color-mix(in lab, var(--bs-alert-color), white);
+        .alert {
+            & .blockquote-footer {
+                color: color-mix(in lab, var(--bs-alert-color) 80%, black);
+            }
+
+            & a {
+                color: var(--bs-alert-color);
+                
+                &:hover {
+                    color: color-mix(in lab, var(--bs-alert-color), white);
+                }
             }
         }
 

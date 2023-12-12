@@ -8,26 +8,31 @@
     <title>{title}</title>
 </svelte:head>
 
-<h1>{title}</h1>
-<p class="lead">I grew up during the height of Grunge and lived through the Nu-metal explosion of the 90s while being raised on Rock of all varieties. My interests are diverse, though I tend to skew towards the harder, more technically adept tracks. Here's a few items that I adore of you want to check them out.</p>
-<hr/>
-<div class="row row-cols-sm-1 row-cols-md-3 g-3">
+<h1 class="display-3">{title}</h1>
+<p>I grew up during the height of Grunge and lived through the Nu-metal explosion of the 90s while being raised on Rock of all varieties. My interests are diverse, though I tend to skew towards the harder, more technically adept tracks.</p>
+<p>I went to my first concert when I was about 12 years old. My cousins took me to Music Midtown in Atlanta, Georgia. I remember when Silverchair took the stage and played an amazing set. The crowd became an timultuous sea of people; jumping and bobbing and tumbling to the song blaring over the speakers; I think it was "Slave", from their album "Freak Show" which had recently debuted.</p>
+<p>Here's a few items that I adore of you want to check them out.</p>
+
+<div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/9w4TMU7avTY?si=VHL6IHjTx17A6r9f" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
+        <Card>
             <h3 class="h5 card-title">HAMMS IN A GLASS</h3>
             <h4 class="h6 card-subtitle mb-2 text-body-secondary">Winona Fighter</h4>
+            <a class="card-link" href="https://www.youtube.com/watch?v=9w4TMU7avTY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/3249EJWdvR7xuLbXoxvLcJ">Spotify</a>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/wz56aruweJY?si=xjBhJcvz_w6CL4ef" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
+        <Card>
             <h3 class="h5 card-title">The Motherload</h3>
             <h4 class="h6 card-subtitle mb-2 text-body-secondary">Mastodon</h4>
+            <a class="card-link" href="https://www.youtube.com/watch?v=wz56aruweJY">Youtube</a><a class="card-link" href="https://open.spotify.com/track/6EF0xhfKtQNqUPz2mnE5BD">Spotify</a>
         </Card>
     </div>
     <div class="col">
-        <Card cap={`<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/HANCzu70us4?si=6qZWrkyPP0HJAoX8" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}>
+        <Card>
             <h3 class="h5 card-title">In Due Time</h3>
             <h4 class="h6 card-subtitle mb-2 text-body-secondary">Killswitch Engage</h4>
+            <a class="card-link" href="https://youtu.be/HANCzu70us4">Youtube</a><a class="card-link" href="https://open.spotify.com/track/1HlOGL1p6wlpOZatJ2NwFk">Spotify</a>
         </Card>
     </div>
     <div class="col">
