@@ -8,8 +8,32 @@
     <style lang="scss" global>
         @charset "utf-8";
 
+        $purple-60: #8a3ffc;
+        $teal-60: #007d79;
+        $green-60: #198038;
+        $cyan-60: #0072c3;
+        $lightblue-60: #0079ac;
+        $yellow-60: #8a6a1b;
+        $red-60: #da1e28;
+        $gray-10: #f4f4f4;
+        $gray-90: #262626;
+        $cool-gray-90: #21272a;
+        $warm-gray-30: #cac5c4;
+        $warm-gray-100: #171414;
+
         @use "/node_modules/bootstrap/scss/bootstrap" with (
             $color-mode-type: media-query,
+            $blockquote-footer-color: inherit,
+            $body-color-dark: $gray-10,
+            $body-bg-dark: $warm-gray-100,
+            $primary: $purple-60,
+            $secondary: $teal-60,
+            $success: $green-60,
+            $info: $lightblue-60,
+            $warning: $yellow-60,
+            $danger: $red-60,
+            $light: $gray-10,
+            $dark: $gray-90,
         );
 
         body {
