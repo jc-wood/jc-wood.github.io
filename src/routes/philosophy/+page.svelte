@@ -8,13 +8,9 @@
     <title>{title}</title>
 </svelte:head>
 
-<h1>{title}</h1>
-<p class="lead">Throughout my life I've thought of myself as something of a “free thinker”; always challenging my beliefs and attempting to refine my knowledge into something firm and certain. I now believe that such a goal has always been a <em>fool's errand</em> and that those who go through life with rigid certainty are overconfident in their knowledge and ignorant of their ignorance.</p>
+<h1 class="display-3">{title}</h1>
+<p>Throughout my life I've thought of myself as something of a “free thinker”; always challenging my beliefs and attempting to refine my knowledge into something firm and certain. I now believe that such a goal has always been a <em>fool's errand</em> and that those who go through life with rigid certainty are overconfident in their knowledge and ignorant of their ignorance.</p>
 <div class="alert alert-secondary">
-<!--     <blockquote class="blockquote mb-0">
-        <p>I know that I know nothing.</p>
-        <footer class="blockquote-footer">Socrates in <cite>The Apology</cite>, one of the dialogues in the Trial and Death of Socrates.</footer>
-    </blockquote> -->
     <figure class="mb-0">
         <blockquote class="blockquote">
             <p>I know that I know nothing.</p>
@@ -24,10 +20,9 @@
         </figcaption>
     </figure>
 </div>
-<p class="lead">Are you wiser than Socrates? When Socrates was <a href="https://www.thoughtco.com/what-was-the-charge-against-socrates-121060" title="A link to a ThoughtCo article about the trial">on trial</a>, he recounted the tale of his visit with the Oracle of Delphi. The oracle informed Socrates that he was the wisest person on earth (sic). In contemplating why the oracle would say such a thing, he determined that it was because unlike other people, he knew that he did not know <em>anything</em>. <a href="https://reasonandmeaning.com/2019/11/03/socrates-i-know-that-i-know-nothing/" title="A link to Reason and Meaning">Here's a great breakdown of Socrates' argument.</a></p>
-<hr/>
-<h2 class="my-4">Brain Nuggets</h2>
-<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3">
+<p>Are you wiser than Socrates? When Socrates was <a href="https://www.thoughtco.com/what-was-the-charge-against-socrates-121060" title="A link to a ThoughtCo article about the trial">on trial</a>, he recounted the tale of his visit with the Oracle of Delphi. The oracle informed Socrates that he was the wisest person on earth (sic). In contemplating why the oracle would say such a thing, he determined that it was because unlike other people, he knew that he did not know <em>anything</em>. <a href="https://reasonandmeaning.com/2019/11/03/socrates-i-know-that-i-know-nothing/" title="A link to Reason and Meaning">Here's a great breakdown of Socrates' argument.</a></p>
+
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
             <h3 class="h5 card-title">The Myth of Sisyphus</h3>

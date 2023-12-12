@@ -2,9 +2,10 @@
     <style lang="scss">
         @charset "utf-8";
 
-        $color-mode-type: media-query;
-
-        @import "/node_modules/bootstrap/scss/bootstrap.scss";
+        @use "/node_modules/bootstrap/scss/bootstrap" with (
+            $color-mode-type: media-query,
+        );
+       //@import "/css/mvp.css";
 
         body {
             padding-bottom: 3rem;
