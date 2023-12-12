@@ -18,26 +18,35 @@
 <p class="mb-1"></p>
 
 
-<div class="row row-cols-sm-1 row-cols-md-3 g-3 mt-4">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Destiny 2</h3>
-            <p class="card-text">These days I spend an inordinate amount of time playing Destiny 2 with my friends and clanmates.</p>
-            <p class="card-text">Shoot me an email, message me on Discord, or DM me on Mastodon and we'll game together.</p>
-            <a class="card-link" href="https://www.bungie.net/7/en/Destiny">Go</a>
+            <img slot="cap" srcset="/img/d2_lightfall_360x360.webp 360w, /img/d2_lightfall_720x720.webp 720w" sizes="(max-width:600px) 360px, 720px" src="/img/d2_lightfall_720x720.webp" alt="Destiny 2: Lightfall Promotional Art"/>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Destiny 2</h3>
+                <p class="card-text">These days I spend an inordinate amount of time playing Destiny 2 with my friends and clanmates.</p>
+                <p class="card-text">Shoot me an email, message me on Discord, or DM me on Mastodon and we'll game together.</p>
+                <a class="card-link" href="https://www.bungie.net/7/en/Destiny">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Baldur's Gate 3</h3>
-            <p class="card-text">This game is one of the best I've ever played. Phenomenal story telling. Great gameplay. The developers thought of everything.</p>
-            <a class="card-link" href="https://baldursgate3.game">Go</a>
+            <img slot="cap" srcset="/img/baldurs-gate-3_keyart_360x360.webp 360w, /img/baldurs-gate-3_keyart_720x720.webp 720w" sizes="(max-width:600px) 360px, 720px" src="/img/baldurs-gate-3_keyart_720x720.webp" alt="Baldur's Gate 3 Promotional Art"/>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Baldur's Gate 3</h3>
+                <p class="card-text">This game is one of the best I've ever played. Phenomenal story telling. Great gameplay. The developers thought of everything.</p>
+                <a class="card-link" href="https://baldursgate3.game">Go</a>
+            </div>
         </Card>
     </div>
     <div class="col">
         <Card>
-            <h3 class="h5 card-title">Discord</h3>
-            <p class="card-text">You can also find me on <a href="https://discord.com/users/ifeelanxious" title="Link to Discord user profile.">Discord</a>.</p>
+            <img slot="cap" srcset="/img/discord-logo_360x360.webp 360w, /img/discord-logo_720x720.webp 720w" sizes="(max-width:600px) 360px, 720px" src="/img/discord-logo_720x720.webp" alt="Discord Logo"/>
+            <div slot="body" class="card-body">
+                <h3 class="h5 card-title">Discord</h3>
+                <p class="card-text">You can also find me on <a href="https://discord.com/users/ifeelanxious" title="Link to Discord user profile.">Discord</a>.</p>
+            </div>
         </Card>
     </div>
 </div>

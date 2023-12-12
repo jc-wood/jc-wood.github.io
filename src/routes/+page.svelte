@@ -8,8 +8,8 @@
     <title>{title}</title>
 </svelte:head>
 
-<h1>{title}</h1>
-<p class="lead">I am a software developer from the Atlanta, Georgia area. I am lover of coffee, video games, books, and comics. I am a bit of a metalhead. I am an enthusiastic father to a little boy and a devoted husband to my wife of 14 years.</p>
+<h1 class="display-3">{title}</h1>
+<p>I am a software developer from the Atlanta, Georgia area. I am lover of coffee, video games, books, and comics. I am a bit of a metalhead. I am an enthusiastic father to a little boy and a devoted husband to my wife of 14 years.</p>
 <h2>Hobbies and Interests</h2>
 <ul class="list-unstyled">
     <li><a href="/music">Music</a></li>

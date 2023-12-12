@@ -1,13 +1,8 @@
-<script>
-    /**@type {string|null}*/
-    export let cap = null;
-</script>
-
 <div class="card">
-    {#if cap}
-    {@html cap}
-    {/if}
-    <div class="card-body">
-        <slot/>
-    </div>
+    <slot name="header"></slot>
+    <slot name="cap"/>
+    <slot name="body"/>
+    <slot></slot>
+    <slot name="list"/>
+    <slot name="footer"/>
 </div>

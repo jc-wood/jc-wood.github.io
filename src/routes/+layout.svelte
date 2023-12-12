@@ -1,11 +1,16 @@
+<script>
+    import Hero from "$lib/components/Hero.svelte";
+    import MainNavigation from "$lib/components/Main-Navigation.svelte";
+    import Container from "$lib/components/Container.svelte";
+</script>
+
 <svelte:head>
-    <style lang="scss">
+    <style lang="scss" global>
         @charset "utf-8";
 
         @use "/node_modules/bootstrap/scss/bootstrap" with (
             $color-mode-type: media-query,
         );
-       //@import "/css/mvp.css";
 
         body {
             padding-bottom: 3rem;
@@ -36,12 +41,6 @@
         }
     </style>
 </svelte:head>
-
-<script>
-    import Hero from "$lib/components/Hero.svelte";
-    import MainNavigation from "$lib/components/Main-Navigation.svelte";
-    import Container from "$lib/components/Container.svelte";
-</script>
 
 <MainNavigation />
 
